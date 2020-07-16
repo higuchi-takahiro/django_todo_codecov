@@ -22,17 +22,3 @@ class Todo(models.Model):
             return cls.objects.get(id=id)
         except cls.DoesNotExist:
             return None
-
-    @classmethod
-    def get_by_id(cls, id):
-        try:
-            return cls.objects.get(id=id)
-        except cls.DoesNotExist:
-            return None
-
-    @classmethod
-    def get_by_id(cls, id):
-        try:
-            return cls.objects.get(id=id)
-        except cls.DoesNotExist:
-            return None
