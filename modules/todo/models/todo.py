@@ -1,5 +1,7 @@
 from django.db import models
 
+#import time
+
 
 class Todo(models.Model):
     text = models.CharField(max_length=255, null=None)
